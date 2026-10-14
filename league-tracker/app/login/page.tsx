@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { getSupabase } from "@/lib/supabase";
+import InstallButton from "@/components/InstallButton";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -86,6 +87,8 @@ export default function LoginPage() {
       >
         {mode === "signin" ? "New organiser? Create an account" : "Already have an account? Sign in"}
       </button>
+
+      <InstallButton />
     </main>
   );
 }
