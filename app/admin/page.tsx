@@ -226,7 +226,7 @@ export default function AdminDashboard() {
             value={teamText}
             onChange={(e) => setTeamText(e.target.value)}
             rows={7}
-            placeholder={"Teams, one per line\nBarcelona FC\nArgentina United\nLiverpool"}
+            placeholder={"Teams, one per line\nBarcelona\nArgentina\nLiverpool"}
             className="w-full rounded-xl border border-gray-300 px-4 py-3 text-base outline-none focus:border-green-600"
           />
 
